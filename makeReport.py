@@ -12,7 +12,7 @@ print(exp_list)
 
 th = '\t\t<tr><th>N</th>'
 for exp in exp_list:
-    th = th+'<th>{}</th>'.format(exp)
+    th = th+'<th><p>{}</p></th>'.format(exp)
 th = th+'</tr>\n'
 tmp.append(th)
 
